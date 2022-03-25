@@ -1,0 +1,80 @@
+/*Elementos da tag <body>*/
+body {
+  font-family: "Courier", monospace;
+  background: url(https://i.giphy.com/media/PjJ1cLHqLEveXysGDB/source.gif?cid=ecf05e4722nazj44oilpqk0jmix90wt57ogo6fehxrrrkjmt&rid=source.gif&ct=g),black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top 50px;
+}
+
+/*Elementos da tag "container"*/
+.container {
+  align: center;
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  background: transparent;
+}
+
+/*Elementos da classe "page-title"*/
+.page-title {
+  color: #2c2c2c;
+  margin: 0 0 5px;
+  font-size: 75px;
+  font-weight: 300;
+  background: white;
+  margin-left: center;
+}
+
+/*Elementos da classe "page-subtitle"*/
+.page-subtitle {
+  color: white;
+  margin-top: 16px;
+}
+
+/*Elementos da classe "page-logo"*/
+.page-logo {
+  width: 200px;
+}
+
+/*Elementos da classe "alura-logo"*/
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+/*Elementos da <input>*/
+input {
+  border-color: transparent;
+  background: white;
+  color: #2c2c2c;
+}
+
+/*Elementos da tag <button>*/
+button {
+  margin-top: 30px;
+  padding: 4px 8px;
+  background: transparent;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  font-family: "Courier";
+  width: 100px;
+}
+
+/*Elementos da classe "resultado"*/
+.resultado {
+  color: white;
+  font-family:"Roboto Light";
+  text-align: center;
+  margin-top: 5px;
+}
